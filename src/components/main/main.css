@@ -1,0 +1,564 @@
+/* 01: background part */
+.background-part {
+  background: url("../../assets/dfixbg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6.6vmax;
+  padding-bottom: 6.6vmax;
+}
+
+.background-part img {
+  width: 180px;
+}
+
+.image-block {
+  padding: 0 17 17 17;
+}
+
+.code-block {
+  padding: 17px;
+}
+
+.code-block p {
+  color: #ffffff;
+  font-family: Poppins, Verdana;
+  font-size: 20px;
+  font-weight: 450;
+  letter-spacing: -0.6px;
+  line-height: em;
+  text-align: center;
+  margin-bottom: 15px;
+  margin: 1rem 0;
+}
+.button-block {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-btn {
+  background: linear-gradient(to top right, #f1be0c -1%, #f7dc18 76%);
+  width: 130px;
+  height: 18px;
+  border: 1px solid #f1be0c;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  color: #000;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  margin-top: 6%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.stake-btn {
+  width: 130px;
+  height: 18px;
+  border: 1px solid #f1be0c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  color: #f1be0c;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  margin-top: 6%;
+  text-align: center;
+  text-decoration: none;
+}
+/* 02: Card part */
+.card-part {
+  background-color: #13161b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: calc(20vmax / 10);
+  padding-bottom: calc(20vmax / 10);
+}
+.cards-content {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  height: 221px;
+  padding: 0px 17px 17px 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  background-color: #01060b;
+  border: 0px solid #333333;
+  border-radius: 10px;
+  color: black;
+  padding: 20px;
+}
+
+.upper-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-card img {
+  width: 52px;
+  height: 52px;
+  padding: 10px;
+}
+
+.card-up-desc {
+  color: #ffffff;
+  font-family: Poppins, Verdana;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.1em;
+  text-align: left;
+  padding: 10px;
+}
+
+.card-low-desc {
+  color: #8b8b8b;
+  font-family: Poppins, Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.lower-card {
+  margin: 16px 0px;
+}
+/* 03: token part */
+
+.token-part {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  padding-top: 3.3vmax;
+  padding-bottom: 3.3vmax;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  margin: 0 auto;
+  box-sizing: content-box;
+
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  font-size: 1rem;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+}
+
+.token-content {
+  width: 1200px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-token {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.left-token img {
+  width: 100px;
+}
+
+.right-token img {
+  width: 290px;
+}
+
+.gover-token-text {
+  color: #8b8b8b;
+  font-family: Poppins, Verdana;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  line-height: em;
+  text-align: left;
+}
+
+.left-token-first {
+  padding: 0px 17px 17px 17px;
+}
+
+.small-text-token {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.left-token-second {
+  padding: 17px;
+}
+
+.uniswap-btn {
+  background-color: #ff257c;
+  width: 100px;
+  height: 18px;
+  border: 1px solid #ff257c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dfi-exchange-btn {
+  background-color: #f1be0c;
+  width: 100px;
+  height: 18px;
+  border: 1px solid #f1be0c;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  margin: auto;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exchange-btn:hover {
+  cursor: pointer;
+}
+
+.stake-yfd-btn {
+  width: 100px;
+  height: 18px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  color: #000;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-token-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 04: finance-pool */
+.finance-pool {
+  background-color: #0b0e14;
+}
+.pool-content {
+  width: 1200px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pool-title {
+  color: #ffffff;
+  font-family: Poppins, Verdana;
+  font-size: 20px;
+  font-weight: 450;
+  letter-spacing: -0.6px;
+  line-height: em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.wethLogoImg {
+  width: 105px;
+}
+.yfdiconImg {
+  width: 70px;
+}
+.uniswapImg {
+  width: 68px;
+}
+.pool-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pool-card,
+.pool-upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
+
+.pool-lower {
+  padding: 17px;
+}
+
+.bool-btn {
+  width: 100px;
+  height: 18px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: auto;
+  color: #fff;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  line-height: 0em;
+  margin-top: 8%;
+  text-align: center;
+}
+.coming-soon {
+  width: 100px;
+  height: 18px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: auto;
+  color: #555;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  line-height: 0em;
+  margin-top: 8%;
+  text-align: center;
+}
+.pool-card-title {
+  color: #ffffff;
+  font-family: Poppins, Verdana;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.pool-card-desc {
+  color: #8b8b8b;
+  font-family: Poppins, Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+/*05: exchange-part*/
+.exchange {
+  background-color: #fff;
+}
+
+.exchange-content {
+  width: 1200px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.exchange-left {
+  margin-right: 150px;
+}
+.exchange-left img {
+  width: 270px;
+}
+
+.exchange-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.exchange-right div {
+  padding: 17px;
+}
+
+.exchange-right-title p {
+  color: #8b8b8b;
+  font-family: Poppins, Verdana;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.exchange-text {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.exchange-btn {
+  background-color: #f1be0c;
+  width: 130px;
+  height: 18px;
+  border: 1px solid #f1be0c;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  line-height: 0em;
+  text-align: center;
+}
+
+.dfi-exchange-text {
+  text-decoration: underline;
+}
+
+/* 06: decentral-content*/
+.decentralized {
+  background-color: #f5f5f5;
+}
+.decentral-content {
+  width: 1200px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.decentral-title {
+  color: #000;
+  font-family: Poppins, Verdana;
+  font-size: 20px;
+  font-weight: 450;
+  letter-spacing: -0.6px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.decentral-subtitle {
+  color: #000;
+  font-family: Poppins, Verdana;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.decentral-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.decentral-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
+.decentral-card img {
+  width: 160px;
+}
+.decentral-text {
+  color: #8b8b8b;
+  font-family: Poppins, Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.decentral-buttons {
+  width: 33.33%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.decentral-buy-btn {
+  background-color: #ff257c;
+  width: 100px;
+  height: 18px;
+  border: 1px solid #ff257c;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: auto;
+  color: #fff;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  margin-top: 8%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decentral-stake-btn {
+  background-color: #f1be0c;
+  width: 100px;
+  height: 18px;
+  border: 1px solid #f1be0c;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: auto;
+  color: #fff;
+  font-family: aktiv-grotesk, Verdana;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  margin-top: 8%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decentral-buy-btn:hover,
+.decentral-stake-btn:hover {
+  cursor: pointer;
+}

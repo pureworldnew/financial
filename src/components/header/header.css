@@ -1,0 +1,81 @@
+header {
+  background-color: #1a2029;
+}
+header .header-content {
+  margin: auto;
+  padding-top: 2.3vw;
+  padding-bottom: 2.3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  font-size: 0.8rem;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+}
+.app-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 38px;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 1.2vw 0 0;
+  font-size: 0.8rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  backface-visibility: hidden;
+  padding: 0.1em 0;
+}
+
+nav ul li a:hover {
+  color: #f2c30e;
+}
+
+.right-header {
+  margin: 0 0 0 2vw;
+}
+.btn-add {
+  color: #f2cb12;
+  border-color: #f2cb12;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.4rem;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: 1.2em;
+  padding: 0.64rem 1.0688rem;
+  text-decoration: none;
+}
+
+.btn-add:hover {
+  background: #f2cb12;
+  color: #000;
+  cursor: pointer;
+}
